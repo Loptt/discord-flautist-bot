@@ -1,2 +1,2 @@
-# discrod-flautist-bot
+# discord-flautist-bot
 Discord Javascript bot
