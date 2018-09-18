@@ -28,7 +28,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
        
         args = args.splice(1);
         switch(cmd) {
-            // !ping
+
             case 'ping':
                 bot.sendMessage({
                     to: channelID,
@@ -42,7 +42,13 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     message: 'Alchile si'
                 });
                 break;
-            // Just add any case commands if you want to..
+            
+            case 'carlos':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'Nel prro tu si'
+                });
+                break;
          }
      }
 });
